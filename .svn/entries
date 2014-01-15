@@ -1,0 +1,136 @@
+8
+
+dir
+18270
+svn://10.150.0.2/trunk/DocumentacaoFaseDesenvolvimento/SGDC-P/InfraEstruturaDesenvolvimento/displaytag
+svn://10.150.0.2
+
+
+
+2008-03-19T16:26:41.008304Z
+16680
+antelio
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a0be6657-8304-0410-ad73-8a394d19e940
+
+xdocs
+dir
+
+LICENSE.txt
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+f01d2fac67316058a2f0f1f13fc2e5f9
+2006-11-09T18:11:23.346206Z
+5969
+milene
+
+junit1381983309.properties
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+255df5f18ad0238b9827ba9a1c9c1223
+2006-11-09T18:11:23.346206Z
+5969
+milene
+
+project.properties
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+6b8c9f12bd5007ae6d6d29ace43cdb6c
+2006-11-09T18:11:23.346206Z
+5969
+milene
+
+maven.xml
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+174aa4b80b07b903acbe17885101d7c5
+2007-02-23T16:49:51.363506Z
+7863
+moises
+
+project.xml
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+2f4bb643720e74f3e92987877fddc4d8
+2006-11-09T18:11:23.346206Z
+5969
+milene
+
+lib
+dir
+
+target
+dir
+
+src
+dir
+
+clover.license
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+56a22fbcdbc5fc7fb39b22016d14447c
+2006-11-09T18:11:23.346206Z
+5969
+milene
+
+checkstyle.xml
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+30166937c844af421b63d35cb5d43ca4
+2006-11-09T18:11:23.346206Z
+5969
+milene
+
+build.xml
+file
+
+
+
+
+2008-11-27T17:21:40.000000Z
+3f73a6a5dfd6c2695e3b7e5608a3f8db
+2006-11-09T18:11:23.346206Z
+5969
+milene
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>Changes report</title>
+    <link>http://displaytag.sourceforge.net</link>
+    <description>Changes report</description>
+    <language>en-us</language>
+    <copyright>Copyright 2004 The Apache Software Foundation</copyright>
+    <item>
+      <title>10 change(s) for version 1.0</title>
+      <link>http://displaytag.sourceforge.net/changes-report.html</link>
+      <description>
+        <table border="1">
+          <tr>
+            <th style="width:50px">Type</th>
+            <th>Changes</th>
+            <th style="width:70px">By</th>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Fixed some remaining https issues when saving exported files in Internet Explorer with the export filter enabled.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>autolink working with https://, ftp://, etc. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-150">DISPL-150</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Column body is not rendered when requesting an invalid page. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-136">DISPL-136</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>I18n Struts Adapter now works with Struts 1.1. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-149">DISPL-149</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Performance optimization: reduce the use of temporary StringBuffers while building the html table. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-156">DISPL-156</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Sporadic error with factory.requestHelper. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-148">DISPL-148</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>add</td>
+            <td>DisplayTag is now able to load displaytag.properties from a different classloader (allows displaytag.jar to be placed in appserver shared libs). Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-144">DISPL-144</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Center of paging banner number. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-109">DISPL-109</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Tag holding references to resources. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-145">DISPL-145</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+          <tr>
+            <td>fix</td>
+            <td>Export of nested tables: now you can export the parent table without errors; nested tables are not included during export. Fixes
+              <a href="http://displaytag.sourceforge.net/bug-redirect.php?item=DISPL-142">DISPL-142</a>.</td>
+            <td>
+              <a href="http://displaytag.sourceforge.net/team-list.html#fgiust">fgiust</a>
+            </td>
+          </tr>
+        </table>
+      </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+8
+
+dir
+18270
+svn://10.150.0.2/trunk/DocumentacaoFaseDesenvolvimento/SGDC-P/InfraEstruturaDesenvolvimento/displaytag/target/docs/xref/org/displaytag
+svn://10.150.0.2
+
+
+
+2006-11-09T18:05:50.959334Z
+5967
+milene
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a0be6657-8304-0410-ad73-8a394d19e940
+
+model
+dir
+
+export
+dir
+
+sample
+dir
+
+decorator
+dir
+
+filter
+dir
+
+package-frame.html
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+f748fdb81847655e01a716d7fc7f83df
+2006-11-09T18:05:50.959334Z
+5967
+milene
+
+localization
+dir
+
+pagination
+dir
+
+package-summary.html
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+89b12f808f9059f356cf9f97cd76e7a4
+2006-11-09T18:05:50.959334Z
+5967
+milene
+
+Messages.html
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+38c8d292f9801dc52f0bfc06f8b0b1ef
+2006-11-09T18:05:50.959334Z
+5967
+milene
+
+properties
+dir
+
+util
+dir
+
+exception
+dir
+

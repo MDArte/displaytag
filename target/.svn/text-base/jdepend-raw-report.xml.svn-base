@@ -1,0 +1,1050 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.lowagie.text">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.lowagie.text.pdf">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.opensymphony.webwork.views.jsp">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.opensymphony.xwork">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.opensymphony.xwork.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.awt">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.beans">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.reflect">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.net">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.text">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet.http">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet.jsp">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet.jsp.jstl.core">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet.jsp.jstl.fmt">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet.jsp.tagext">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.beanutils">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.collections">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.collections.iterators">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.lang.builder">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.lang.enum">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.lang.math">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.lang.time">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.logging">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.jetspeed.portlet">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.struts.config">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.struts.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.taglibs.display">
+            <Stats>
+                <TotalClasses>3</TotalClasses>
+                <ConcreteClasses>0</ConcreteClasses>
+                <AbstractClasses>3</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>4</Ce>
+                <A>1</A>
+                <I>1</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="ColumnDecorator.java">
+                    org.apache.taglibs.display.ColumnDecorator
+                </Class>
+                <Class sourceFile="Decorator.java">
+                    org.apache.taglibs.display.Decorator
+                </Class>
+                <Class sourceFile="TableDecorator.java">
+                    org.apache.taglibs.display.TableDecorator
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>org.displaytag.decorator</Package>
+                <Package>org.displaytag.exception</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.apache.taglibs.standard.lang.support">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.taglibs.standard.tag.common.fmt">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.displaytag">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>7</Ca>
+                <Ce>3</Ce>
+                <A>0</A>
+                <I>0.3</I>
+                <D>0.7</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Messages.java">
+                    org.displaytag.Messages
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.exception</Package>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.filter</Package>
+                <Package>org.displaytag.localization</Package>
+                <Package>org.displaytag.pagination</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.util</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.decorator">
+            <Stats>
+                <TotalClasses>5</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>3</AbstractClasses>
+                <Ca>5</Ca>
+                <Ce>8</Ce>
+                <A>0.6</A>
+                <I>0.62</I>
+                <D>0.22</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="ColumnDecorator.java">
+                    org.displaytag.decorator.ColumnDecorator
+                </Class>
+                <Class sourceFile="Decorator.java">
+                    org.displaytag.decorator.Decorator
+                </Class>
+                <Class sourceFile="TableDecorator.java">
+                    org.displaytag.decorator.TableDecorator
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AutolinkColumnDecorator.java">
+                    org.displaytag.decorator.AutolinkColumnDecorator
+                </Class>
+                <Class sourceFile="DecoratorFactory.java">
+                    org.displaytag.decorator.DecoratorFactory
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.lang.reflect</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>org.apache.commons.beanutils</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.displaytag.exception</Package>
+                <Package>org.displaytag.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.apache.taglibs.display</Package>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.model</Package>
+                <Package>org.displaytag.sample</Package>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.exception">
+            <Stats>
+                <TotalClasses>14</TotalClasses>
+                <ConcreteClasses>12</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>7</Ca>
+                <Ce>6</Ce>
+                <A>0.14</A>
+                <I>0.46</I>
+                <D>0.4</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="BaseNestableJspTagException.java">
+                    org.displaytag.exception.BaseNestableJspTagException
+                </Class>
+                <Class sourceFile="BaseNestableRuntimeException.java">
+                    org.displaytag.exception.BaseNestableRuntimeException
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="DecoratorException.java">
+                    org.displaytag.exception.DecoratorException
+                </Class>
+                <Class sourceFile="DecoratorInstantiationException.java">
+                    org.displaytag.exception.DecoratorInstantiationException
+                </Class>
+                <Class sourceFile="ExportException.java">
+                    org.displaytag.exception.ExportException
+                </Class>
+                <Class sourceFile="FactoryInstantiationException.java">
+                    org.displaytag.exception.FactoryInstantiationException
+                </Class>
+                <Class sourceFile="InvalidTagAttributeValueException.java">
+                    org.displaytag.exception.InvalidTagAttributeValueException
+                </Class>
+                <Class sourceFile="MissingAttributeException.java">
+                    org.displaytag.exception.MissingAttributeException
+                </Class>
+                <Class sourceFile="ObjectLookupException.java">
+                    org.displaytag.exception.ObjectLookupException
+                </Class>
+                <Class sourceFile="RuntimeLookupException.java">
+                    org.displaytag.exception.RuntimeLookupException
+                </Class>
+                <Class sourceFile="SeverityEnum.java">
+                    org.displaytag.exception.SeverityEnum
+                </Class>
+                <Class sourceFile="TablePropertiesLoadException.java">
+                    org.displaytag.exception.TablePropertiesLoadException
+                </Class>
+                <Class sourceFile="TagStructureException.java">
+                    org.displaytag.exception.TagStructureException
+                </Class>
+                <Class sourceFile="WrappedRuntimeException.java">
+                    org.displaytag.exception.WrappedRuntimeException
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.lang.enum</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.apache.taglibs.display</Package>
+                <Package>org.displaytag.decorator</Package>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.model</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.tags</Package>
+                <Package>org.displaytag.util</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.export">
+            <Stats>
+                <TotalClasses>10</TotalClasses>
+                <ConcreteClasses>6</ConcreteClasses>
+                <AbstractClasses>4</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>15</Ce>
+                <A>0.4</A>
+                <I>0.94</I>
+                <D>0.34</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="BaseExportView.java">
+                    org.displaytag.export.BaseExportView
+                </Class>
+                <Class sourceFile="BinaryExportView.java">
+                    org.displaytag.export.BinaryExportView
+                </Class>
+                <Class sourceFile="ExportView.java">
+                    org.displaytag.export.ExportView
+                </Class>
+                <Class sourceFile="TextExportView.java">
+                    org.displaytag.export.TextExportView
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CsvView.java">
+                    org.displaytag.export.CsvView
+                </Class>
+                <Class sourceFile="ExcelView.java">
+                    org.displaytag.export.ExcelView
+                </Class>
+                <Class sourceFile="ExportViewFactory.java">
+                    org.displaytag.export.ExportViewFactory
+                </Class>
+                <Class sourceFile="PdfView.java">
+                    org.displaytag.export.PdfView
+                </Class>
+                <Class sourceFile="PdfView.java">
+                    org.displaytag.export.PdfView$PdfGenerationException
+                </Class>
+                <Class sourceFile="XmlView.java">
+                    org.displaytag.export.XmlView
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.lowagie.text</Package>
+                <Package>com.lowagie.text.pdf</Package>
+                <Package>java.awt</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag</Package>
+                <Package>org.displaytag.decorator</Package>
+                <Package>org.displaytag.exception</Package>
+                <Package>org.displaytag.model</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.filter">
+            <Stats>
+                <TotalClasses>7</TotalClasses>
+                <ConcreteClasses>6</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>10</Ce>
+                <A>0.14</A>
+                <I>1</I>
+                <D>0.14</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="BufferedResponseWrapper.java">
+                    org.displaytag.filter.BufferedResponseWrapper
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="BufferedResponseWrapper12Impl.java">
+                    org.displaytag.filter.BufferedResponseWrapper12Impl
+                </Class>
+                <Class sourceFile="BufferedResponseWrapper13Impl.java">
+                    org.displaytag.filter.BufferedResponseWrapper13Impl
+                </Class>
+                <Class sourceFile="DisplayTagSpringInterceptor.java">
+                    org.displaytag.filter.DisplayTagSpringInterceptor
+                </Class>
+                <Class sourceFile="ExportDelegate.java">
+                    org.displaytag.filter.ExportDelegate
+                </Class>
+                <Class sourceFile="ResponseOverrideFilter.java">
+                    org.displaytag.filter.ResponseOverrideFilter
+                </Class>
+                <Class sourceFile="SimpleServletOutputStream.java">
+                    org.displaytag.filter.SimpleServletOutputStream
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag</Package>
+                <Package>org.springframework.web.servlet</Package>
+                <Package>org.springframework.web.servlet.mvc</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.localization">
+            <Stats>
+                <TotalClasses>6</TotalClasses>
+                <ConcreteClasses>4</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>18</Ce>
+                <A>0.33</A>
+                <I>0.9</I>
+                <D>0.23</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="I18nResourceProvider.java">
+                    org.displaytag.localization.I18nResourceProvider
+                </Class>
+                <Class sourceFile="LocaleResolver.java">
+                    org.displaytag.localization.LocaleResolver
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="I18nJstlAdapter.java">
+                    org.displaytag.localization.I18nJstlAdapter
+                </Class>
+                <Class sourceFile="I18nSpringAdapter.java">
+                    org.displaytag.localization.I18nSpringAdapter
+                </Class>
+                <Class sourceFile="I18nStrutsAdapter.java">
+                    org.displaytag.localization.I18nStrutsAdapter
+                </Class>
+                <Class sourceFile="I18nWebworkAdapter.java">
+                    org.displaytag.localization.I18nWebworkAdapter
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.opensymphony.webwork.views.jsp</Package>
+                <Package>com.opensymphony.xwork</Package>
+                <Package>com.opensymphony.xwork.util</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>javax.servlet.jsp.jstl.core</Package>
+                <Package>javax.servlet.jsp.jstl.fmt</Package>
+                <Package>javax.servlet.jsp.tagext</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.apache.struts.config</Package>
+                <Package>org.apache.struts.util</Package>
+                <Package>org.apache.taglibs.standard.tag.common.fmt</Package>
+                <Package>org.displaytag</Package>
+                <Package>org.springframework.context</Package>
+                <Package>org.springframework.web.servlet.support</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.model">
+            <Stats>
+                <TotalClasses>8</TotalClasses>
+                <ConcreteClasses>8</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>9</Ce>
+                <A>0</A>
+                <I>0.82</I>
+                <D>0.18</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Cell.java">
+                    org.displaytag.model.Cell
+                </Class>
+                <Class sourceFile="Column.java">
+                    org.displaytag.model.Column
+                </Class>
+                <Class sourceFile="ColumnIterator.java">
+                    org.displaytag.model.ColumnIterator
+                </Class>
+                <Class sourceFile="HeaderCell.java">
+                    org.displaytag.model.HeaderCell
+                </Class>
+                <Class sourceFile="Row.java">
+                    org.displaytag.model.Row
+                </Class>
+                <Class sourceFile="RowIterator.java">
+                    org.displaytag.model.RowIterator
+                </Class>
+                <Class sourceFile="RowSorter.java">
+                    org.displaytag.model.RowSorter
+                </Class>
+                <Class sourceFile="TableModel.java">
+                    org.displaytag.model.TableModel
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.lang.builder</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag.decorator</Package>
+                <Package>org.displaytag.exception</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.pagination">
+            <Stats>
+                <TotalClasses>3</TotalClasses>
+                <ConcreteClasses>3</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>9</Ce>
+                <A>0</A>
+                <I>0.9</I>
+                <D>0.1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="NumberedPage.java">
+                    org.displaytag.pagination.NumberedPage
+                </Class>
+                <Class sourceFile="Pagination.java">
+                    org.displaytag.pagination.Pagination
+                </Class>
+                <Class sourceFile="SmartListHelper.java">
+                    org.displaytag.pagination.SmartListHelper
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>org.apache.commons.lang.builder</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.properties">
+            <Stats>
+                <TotalClasses>6</TotalClasses>
+                <ConcreteClasses>6</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>4</Ca>
+                <Ce>15</Ce>
+                <A>0</A>
+                <I>0.79</I>
+                <D>0.21</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="DisplayPropertiesLoaderServlet.java">
+                    org.displaytag.properties.DisplayPropertiesLoaderServlet
+                </Class>
+                <Class sourceFile="MediaTypeEnum.java">
+                    org.displaytag.properties.MediaTypeEnum
+                </Class>
+                <Class sourceFile="SortOrderEnum.java">
+                    org.displaytag.properties.SortOrderEnum
+                </Class>
+                <Class sourceFile="TableProperties.java">
+                    org.displaytag.properties.TableProperties
+                </Class>
+                <Class sourceFile="TableProperties.java">
+                    org.displaytag.properties.TableProperties$1
+                </Class>
+                <Class sourceFile="TableProperties.java">
+                    org.displaytag.properties.TableProperties$2
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>javax.servlet.jsp.tagext</Package>
+                <Package>org.apache.commons.collections.iterators</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.lang.builder</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag</Package>
+                <Package>org.displaytag.exception</Package>
+                <Package>org.displaytag.localization</Package>
+                <Package>org.displaytag.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.model</Package>
+                <Package>org.displaytag.pagination</Package>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.sample">
+            <Stats>
+                <TotalClasses>11</TotalClasses>
+                <ConcreteClasses>11</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>10</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="DisplaySourceServlet.java">
+                    org.displaytag.sample.DisplaySourceServlet
+                </Class>
+                <Class sourceFile="ListHolder.java">
+                    org.displaytag.sample.ListHolder
+                </Class>
+                <Class sourceFile="ListObject.java">
+                    org.displaytag.sample.ListObject
+                </Class>
+                <Class sourceFile="ListObject.java">
+                    org.displaytag.sample.ListObject$SubListItem
+                </Class>
+                <Class sourceFile="LongDateWrapper.java">
+                    org.displaytag.sample.LongDateWrapper
+                </Class>
+                <Class sourceFile="RandomSampleUtil.java">
+                    org.displaytag.sample.RandomSampleUtil
+                </Class>
+                <Class sourceFile="ReportList.java">
+                    org.displaytag.sample.ReportList
+                </Class>
+                <Class sourceFile="ReportableListObject.java">
+                    org.displaytag.sample.ReportableListObject
+                </Class>
+                <Class sourceFile="TestList.java">
+                    org.displaytag.sample.TestList
+                </Class>
+                <Class sourceFile="TotalWrapper.java">
+                    org.displaytag.sample.TotalWrapper
+                </Class>
+                <Class sourceFile="Wrapper.java">
+                    org.displaytag.sample.Wrapper
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.lang.builder</Package>
+                <Package>org.apache.commons.lang.time</Package>
+                <Package>org.displaytag.decorator</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.tags">
+            <Stats>
+                <TotalClasses>12</TotalClasses>
+                <ConcreteClasses>10</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>23</Ce>
+                <A>0.17</A>
+                <I>0.96</I>
+                <D>0.12</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="HtmlTableTag.java">
+                    org.displaytag.tags.HtmlTableTag
+                </Class>
+                <Class sourceFile="TemplateTag.java">
+                    org.displaytag.tags.TemplateTag
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CaptionTag.java">
+                    org.displaytag.tags.CaptionTag
+                </Class>
+                <Class sourceFile="CaptionTagBeanInfo.java">
+                    org.displaytag.tags.CaptionTagBeanInfo
+                </Class>
+                <Class sourceFile="ColumnTag.java">
+                    org.displaytag.tags.ColumnTag
+                </Class>
+                <Class sourceFile="ColumnTagBeanInfo.java">
+                    org.displaytag.tags.ColumnTagBeanInfo
+                </Class>
+                <Class sourceFile="SetPropertyTag.java">
+                    org.displaytag.tags.SetPropertyTag
+                </Class>
+                <Class sourceFile="TableFooterTag.java">
+                    org.displaytag.tags.TableFooterTag
+                </Class>
+                <Class sourceFile="TableTag.java">
+                    org.displaytag.tags.TableTag
+                </Class>
+                <Class sourceFile="TableTagBeanInfo.java">
+                    org.displaytag.tags.TableTagBeanInfo
+                </Class>
+                <Class sourceFile="TableTagExtraInfo.java">
+                    org.displaytag.tags.TableTagExtraInfo
+                </Class>
+                <Class sourceFile="TableTagParameters.java">
+                    org.displaytag.tags.TableTagParameters
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.beans</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>javax.servlet.jsp.tagext</Package>
+                <Package>org.apache.commons.beanutils</Package>
+                <Package>org.apache.commons.collections</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.lang.builder</Package>
+                <Package>org.apache.commons.lang.math</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.displaytag.decorator</Package>
+                <Package>org.displaytag.exception</Package>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.localization</Package>
+                <Package>org.displaytag.model</Package>
+                <Package>org.displaytag.pagination</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.tags.el</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.tags.el">
+            <Stats>
+                <TotalClasses>8</TotalClasses>
+                <ConcreteClasses>8</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>7</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ELCaptionTag.java">
+                    org.displaytag.tags.el.ELCaptionTag
+                </Class>
+                <Class sourceFile="ELCaptionTagBeanInfo.java">
+                    org.displaytag.tags.el.ELCaptionTagBeanInfo
+                </Class>
+                <Class sourceFile="ELColumnTag.java">
+                    org.displaytag.tags.el.ELColumnTag
+                </Class>
+                <Class sourceFile="ELColumnTagBeanInfo.java">
+                    org.displaytag.tags.el.ELColumnTagBeanInfo
+                </Class>
+                <Class sourceFile="ELSetPropertyTag.java">
+                    org.displaytag.tags.el.ELSetPropertyTag
+                </Class>
+                <Class sourceFile="ELTableTag.java">
+                    org.displaytag.tags.el.ELTableTag
+                </Class>
+                <Class sourceFile="ELTableTagBeanInfo.java">
+                    org.displaytag.tags.el.ELTableTagBeanInfo
+                </Class>
+                <Class sourceFile="ExpressionEvaluator.java">
+                    org.displaytag.tags.el.ExpressionEvaluator
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.beans</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>javax.servlet.jsp.tagext</Package>
+                <Package>org.apache.taglibs.standard.lang.support</Package>
+                <Package>org.displaytag.tags</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.displaytag.util">
+            <Stats>
+                <TotalClasses>20</TotalClasses>
+                <ConcreteClasses>18</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>6</Ca>
+                <Ce>15</Ce>
+                <A>0.1</A>
+                <I>0.71</I>
+                <D>0.19</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="RequestHelper.java">
+                    org.displaytag.util.RequestHelper
+                </Class>
+                <Class sourceFile="RequestHelperFactory.java">
+                    org.displaytag.util.RequestHelperFactory
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Anchor.java">
+                    org.displaytag.util.Anchor
+                </Class>
+                <Class sourceFile="CollectionUtil.java">
+                    org.displaytag.util.CollectionUtil
+                </Class>
+                <Class sourceFile="CompatibleUrlEncoder.java">
+                    org.displaytag.util.CompatibleUrlEncoder
+                </Class>
+                <Class sourceFile="DefaultRequestHelper.java">
+                    org.displaytag.util.DefaultRequestHelper
+                </Class>
+                <Class sourceFile="DefaultRequestHelperFactory.java">
+                    org.displaytag.util.DefaultRequestHelperFactory
+                </Class>
+                <Class sourceFile="DependencyChecker.java">
+                    org.displaytag.util.DependencyChecker
+                </Class>
+                <Class sourceFile="Href.java">
+                    org.displaytag.util.Href
+                </Class>
+                <Class sourceFile="HtmlAttributeMap.java">
+                    org.displaytag.util.HtmlAttributeMap
+                </Class>
+                <Class sourceFile="HtmlTagUtil.java">
+                    org.displaytag.util.HtmlTagUtil
+                </Class>
+                <Class sourceFile="LookupUtil.java">
+                    org.displaytag.util.LookupUtil
+                </Class>
+                <Class sourceFile="MultipleHtmlAttribute.java">
+                    org.displaytag.util.MultipleHtmlAttribute
+                </Class>
+                <Class sourceFile="ParamEncoder.java">
+                    org.displaytag.util.ParamEncoder
+                </Class>
+                <Class sourceFile="ReflectHelper.java">
+                    org.displaytag.util.ReflectHelper
+                </Class>
+                <Class sourceFile="ShortToStringStyle.java">
+                    org.displaytag.util.ShortToStringStyle
+                </Class>
+                <Class sourceFile="TagConstants.java">
+                    org.displaytag.util.TagConstants
+                </Class>
+                <Class sourceFile="WpsRequestHelper.java">
+                    org.displaytag.util.WpsRequestHelper
+                </Class>
+                <Class sourceFile="WpsRequestHelper.java">
+                    org.displaytag.util.WpsRequestHelper$RuntimeWpsSupportException
+                </Class>
+                <Class sourceFile="WpsRequestHelperFactory.java">
+                    org.displaytag.util.WpsRequestHelperFactory
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.reflect</Package>
+                <Package>java.net</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet.http</Package>
+                <Package>javax.servlet.jsp</Package>
+                <Package>org.apache.commons.beanutils</Package>
+                <Package>org.apache.commons.collections</Package>
+                <Package>org.apache.commons.lang</Package>
+                <Package>org.apache.commons.lang.builder</Package>
+                <Package>org.apache.commons.logging</Package>
+                <Package>org.apache.jetspeed.portlet</Package>
+                <Package>org.displaytag</Package>
+                <Package>org.displaytag.exception</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.displaytag.decorator</Package>
+                <Package>org.displaytag.export</Package>
+                <Package>org.displaytag.model</Package>
+                <Package>org.displaytag.pagination</Package>
+                <Package>org.displaytag.properties</Package>
+                <Package>org.displaytag.tags</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.springframework.context">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.web.servlet">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.web.servlet.mvc">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.web.servlet.support">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

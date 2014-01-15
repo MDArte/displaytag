@@ -1,0 +1,156 @@
+8
+
+dir
+18270
+svn://10.150.0.2/trunk/DocumentacaoFaseDesenvolvimento/SGDC-P/InfraEstruturaDesenvolvimento/displaytag/target
+svn://10.150.0.2
+
+
+
+2006-11-09T18:19:13.649158Z
+5983
+milene
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a0be6657-8304-0410-ad73-8a394d19e940
+
+pmd-raw-report.xml
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+1df753f3d7810f874d1f0d4f0f54ffd5
+2006-11-09T18:18:31.051502Z
+5981
+milene
+
+tld
+dir
+
+docs
+dir
+
+displaytag.war
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+b047ab1bd84770318844cad040f3d738
+2006-11-09T18:18:31.051502Z
+5981
+milene
+has-props
+
+clover
+dir
+
+checkstyle-raw-report.xml
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+cb53b06430f816ccb0b53ad8d143db48
+2006-11-09T18:18:31.051502Z
+5981
+milene
+
+classes
+dir
+
+findbugs-raw-report.xml
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+a582b5854196f706d8d5fc96f68f3ff9
+2006-11-09T18:18:31.051502Z
+5981
+milene
+
+displaytag
+dir
+
+distributions
+dir
+
+javadoc
+dir
+
+jdepend-raw-report.xml
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+1d26638785dd7e366ff27971ce76f753
+2006-11-09T18:18:31.051502Z
+5981
+milene
+
+displaytag-1.0.jar
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+1d6c0872e8aadff8d3c9d5b9797e9d6e
+2006-11-09T18:02:36.032415Z
+5963
+milene
+has-props
+
+test-classes
+dir
+
+test-reports
+dir
+
+TESTS-TestSuites.xml
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+a12470a4a2aafd7487787bc74c0f30a2
+2006-11-09T18:18:31.051502Z
+5981
+milene
+
+generated-xdocs
+dir
+
+checkstyle-raw-report.txt
+file
+
+
+
+
+2008-11-27T17:21:38.000000Z
+2298490cac5aa6c84fd653d660fe042f
+2006-11-09T18:18:31.051502Z
+5981
+milene
+

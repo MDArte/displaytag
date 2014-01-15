@@ -1,0 +1,3471 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<document>
+  <properties>
+    <title>Checkstyle Results</title>
+  </properties>
+  <body>
+    <section name="Checkstyle Results">
+      <p>The following document contains the results of
+        <a href="http://checkstyle.sourceforge.net/">Checkstyle</a>
+        <a href="checkstyle.rss">
+          <img src="images/rss.png">
+          </img>
+        </a>.</p>
+    </section>
+    <section name="Summary">
+      <table summary="Report summary">
+        <thead>
+          <tr>
+            <th>Files</th>
+            <th style="width:75px">Infos</th>
+            <th style="width:75px">Warnings</th>
+            <th style="width:75px">Errors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>109</td>
+            <td>62</td>
+            <td>187</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section name="Files">
+      <table summary="Files">
+        <thead>
+          <tr>
+            <th>Files</th>
+            <th style="width:30px">I</th>
+            <th style="width:30px">W</th>
+            <th style="width:30px">E</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#org/displaytag/decorator/AutolinkColumnDecorator.java">org/displaytag/decorator/AutolinkColumnDecorator.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/export/ExportViewFactory.java">org/displaytag/export/ExportViewFactory.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/export/PdfView.java">org/displaytag/export/PdfView.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/filter/ExportDelegate.java">org/displaytag/filter/ExportDelegate.java</a>
+            </td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/localization/I18nJstlAdapter.java">org/displaytag/localization/I18nJstlAdapter.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/pagination/NumberedPage.java">org/displaytag/pagination/NumberedPage.java</a>
+            </td>
+            <td>1</td>
+            <td>5</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/pagination/Pagination.java">org/displaytag/pagination/Pagination.java</a>
+            </td>
+            <td>4</td>
+            <td>47</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/pagination/SmartListHelper.java">org/displaytag/pagination/SmartListHelper.java</a>
+            </td>
+            <td>2</td>
+            <td>31</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/properties/MediaTypeEnum.java">org/displaytag/properties/MediaTypeEnum.java</a>
+            </td>
+            <td>4</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/properties/TableProperties.java">org/displaytag/properties/TableProperties.java</a>
+            </td>
+            <td>4</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/ColumnTag.java">org/displaytag/tags/ColumnTag.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/ColumnTagBeanInfo.java">org/displaytag/tags/ColumnTagBeanInfo.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/TableTag.java">org/displaytag/tags/TableTag.java</a>
+            </td>
+            <td>19</td>
+            <td>92</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/TableTagBeanInfo.java">org/displaytag/tags/TableTagBeanInfo.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/TableTagParameters.java">org/displaytag/tags/TableTagParameters.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/el/ELColumnTag.java">org/displaytag/tags/el/ELColumnTag.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/el/ELColumnTagBeanInfo.java">org/displaytag/tags/el/ELColumnTagBeanInfo.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/el/ELTableTag.java">org/displaytag/tags/el/ELTableTag.java</a>
+            </td>
+            <td>2</td>
+            <td>9</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/tags/el/ELTableTagBeanInfo.java">org/displaytag/tags/el/ELTableTagBeanInfo.java</a>
+            </td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/util/CompatibleUrlEncoder.java">org/displaytag/util/CompatibleUrlEncoder.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/util/DependencyChecker.java">org/displaytag/util/DependencyChecker.java</a>
+            </td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/util/Href.java">org/displaytag/util/Href.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/util/HtmlTagUtil.java">org/displaytag/util/HtmlTagUtil.java</a>
+            </td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#org/displaytag/util/LookupUtil.java">org/displaytag/util/LookupUtil.java</a>
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+      <subsection name="org/displaytag/decorator/AutolinkColumnDecorator.java">
+        <table summary="Error details for org/displaytag/decorator/AutolinkColumnDecorator.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 17 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/decorator/AutolinkColumnDecorator.html#47">47</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 43 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/decorator/AutolinkColumnDecorator.html#47">47</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/export/ExportViewFactory.java">
+        <table summary="Error details for org/displaytag/export/ExportViewFactory.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O número de &amp;quot;return&amp;quot;s é 5 (máximo permitido é 3).</td>
+              <td>
+                <a href="xref/org/displaytag/export/ExportViewFactory.html#90">90</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/export/PdfView.java">
+        <table summary="Error details for org/displaytag/export/PdfView.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Exception' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/export/PdfView.html#170">170</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/filter/ExportDelegate.java">
+        <table summary="Error details for org/displaytag/filter/ExportDelegate.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/filter/ExportDelegate.html#38">38</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 15 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/filter/ExportDelegate.html#59">59</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 35 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/filter/ExportDelegate.html#59">59</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/localization/I18nJstlAdapter.java">
+        <table summary="Error details for org/displaytag/localization/I18nJstlAdapter.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 15 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/localization/I18nJstlAdapter.html#94">94</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/pagination/NumberedPage.java">
+        <table summary="Error details for org/displaytag/pagination/NumberedPage.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/NumberedPage.html#32">32</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'group' esconde um campo.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/NumberedPage.html#50">50</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/NumberedPage.html#91">91</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/NumberedPage.html#91">91</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/NumberedPage.html#92">92</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/NumberedPage.html#93">93</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/pagination/Pagination.java">
+        <table summary="Error details for org/displaytag/pagination/Pagination.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#48">48</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#58">58</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#63">63</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#68">68</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Unused private field 'nextGroup'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#107">107</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Unused private field 'previousGroup'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#112">112</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Unused private field 'frstGroup'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#117">117</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#120">120</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#135">135</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'tableParameter'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#135">135</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'tableName' esconde um campo.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#135">135</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'tableName'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#135">135</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'session' esconde um campo.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#135">135</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'session'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#135">135</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'=' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#139">139</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#293">293</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#302">302</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#305">305</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#306">306</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#307">307</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#307">307</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#307">307</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#307">307</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#308">308</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'cast' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#308">308</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#309">309</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#309">309</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#309">309</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#309">309</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#310">310</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#311">311</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'}' deve estar sozinho numa linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'else' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'}' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'else' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#312">312</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#313">313</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#314">314</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#315">315</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#316">316</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#345">345</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'-' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#345">345</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#346">346</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#371">371</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#371">371</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'currentGroup' esconde um campo.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#371">371</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#371">371</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#372">372</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/Pagination.html#373">373</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/pagination/SmartListHelper.java">
+        <table summary="Error details for org/displaytag/pagination/SmartListHelper.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#73">73</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#151">151</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#152">152</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'-' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#152">152</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#153">153</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>')' é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#215">215</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'-' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#260">260</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'-' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#261">261</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#269">269</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 14 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'baseHrefAction'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'groupParameter'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'tableParameter'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'tableName'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Esperada a marca @param para 'session'.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#283">283</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#291">291</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'-' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#307">307</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'-' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#308">308</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>';' é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#308">308</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'if' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#362">362</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#362">362</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#362">362</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#363">363</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'else' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#364">364</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#364">364</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#365">365</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#395">395</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#395">395</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'currentGroup' esconde um campo.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#395">395</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#395">395</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#396">396</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/pagination/SmartListHelper.html#397">397</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/properties/MediaTypeEnum.java">
+        <table summary="Error details for org/displaytag/properties/MediaTypeEnum.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de acesso a variável em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/MediaTypeEnum.html#37">37</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de acesso a variável em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/MediaTypeEnum.html#42">42</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de acesso a variável em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/MediaTypeEnum.html#47">47</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de acesso a variável em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/MediaTypeEnum.html#52">52</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/properties/TableProperties.java">
+        <table summary="Error details for org/displaytag/properties/TableProperties.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Throwable' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/TableProperties.html#449">449</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de construtor em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/TableProperties.html#488">488</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Throwable' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/TableProperties.html#1031">1031</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Exception' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/properties/TableProperties.html#1117">1117</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/ColumnTag.java">
+        <table summary="Error details for org/displaytag/tags/ColumnTag.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 16 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/ColumnTag.html#600">600</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 36 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/ColumnTag.html#600">600</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/ColumnTagBeanInfo.java">
+        <table summary="Error details for org/displaytag/tags/ColumnTagBeanInfo.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 35 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/ColumnTagBeanInfo.html#32">32</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/TableTag.java">
+        <table summary="Error details for org/displaytag/tags/TableTag.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Ficheiro tem 2.001 linhas (máx. permitido são 2.000).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1">1</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#93">93</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#98">98</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#124">124</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#129">129</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de acesso a variável em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#139">139</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Definição de acesso a variável em ordem errada.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#147">147</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#206">206</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#211">211</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#216">216</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Variável 'defaultSortedColumn' inicializada explicitamente para '0' (valor por omissão para o seu tipo).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#229">229</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#284">284</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#411">411</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#613">613</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#693">693</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#695">695</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 29 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#809">809</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 53 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#809">809</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#822">822</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#823">823</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#824">824</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#825">825</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#827">827</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#829">829</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#829">829</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#831">831</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#832">832</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'}' deve estar sozinho numa linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#833">833</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'else' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#833">833</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'}' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#833">833</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'else' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#833">833</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#833">833</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#833">833</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#834">834</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'if' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#835">835</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#835">835</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#835">835</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#836">836</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'else' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#837">837</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#837">837</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#838">838</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#839">839</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#840">840</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#841">841</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#844">844</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'if' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#848">848</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#848">848</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#849">849</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#851">851</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#852">852</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#853">853</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'if' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#854">854</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#854">854</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#855">855</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#956">956</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#956">956</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#956">956</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#957">957</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#958">958</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#958">958</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#958">958</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#958">958</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#958">958</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#959">959</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#960">960</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#960">960</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#960">960</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#960">960</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#960">960</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#960">960</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#961">961</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#962">962</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#963">963</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'}' deve estar sozinho numa linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'else' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'}' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'else' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#964">964</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#965">965</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#965">965</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#965">965</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#965">965</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#966">966</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#967">967</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#968">968</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#969">969</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#970">970</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#972">972</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1020">1020</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1020">1020</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1021">1021</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1038">1038</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1040">1040</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 16 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1046">1046</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 16 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1126">1126</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1191">1191</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Exception' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1273">1273</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1316">1316</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 20 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1352">1352</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 39 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1352">1352</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Exception' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1417">1417</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 31 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1765">1765</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>A estrutura sintáctica 'if' deve utilizar '{}'s.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1882">1882</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1882">1882</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1883">1883</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1886">1886</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1980">1980</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTag.html#1982">1982</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/TableTagBeanInfo.java">
+        <table summary="Error details for org/displaytag/tags/TableTagBeanInfo.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 43 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTagBeanInfo.html#34">34</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Throwable' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTagBeanInfo.html#125">125</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/TableTagParameters.java">
+        <table summary="Error details for org/displaytag/tags/TableTagParameters.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>A primeira frase deve acabar num ponto final.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/TableTagParameters.html#38">38</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/el/ELColumnTag.java">
+        <table summary="Error details for org/displaytag/tags/el/ELColumnTag.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 22 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELColumnTag.html#330">330</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 35 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELColumnTag.html#330">330</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/el/ELColumnTagBeanInfo.java">
+        <table summary="Error details for org/displaytag/tags/el/ELColumnTagBeanInfo.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 34 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELColumnTagBeanInfo.html#36">36</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/el/ELTableTag.java">
+        <table summary="Error details for org/displaytag/tags/el/ELTableTag.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#102">102</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Falta o comentário Javadoc.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#278">278</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#278">278</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#278">278</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#279">279</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 26 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#348">348</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 39 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#348">348</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'if' não é seguido de espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#431">431</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' deve estar numa nova linha.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#431">431</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>'{' não é precedido por espaço em branco.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#431">431</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém um caracter de tabulação.</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTag.html#432">432</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/tags/el/ELTableTagBeanInfo.java">
+        <table summary="Error details for org/displaytag/tags/el/ELTableTagBeanInfo.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 36 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/tags/el/ELTableTagBeanInfo.html#37">37</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/util/CompatibleUrlEncoder.java">
+        <table summary="Error details for org/displaytag/util/CompatibleUrlEncoder.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Throwable' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/util/CompatibleUrlEncoder.html#51">51</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>O tratamento de 'Throwable' não é permitido.</td>
+              <td>
+                <a href="xref/org/displaytag/util/CompatibleUrlEncoder.html#83">83</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/util/DependencyChecker.java">
+        <table summary="Error details for org/displaytag/util/DependencyChecker.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/util/DependencyChecker.html#63">63</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Linha contém mais do que 120 caracteres.</td>
+              <td>
+                <a href="xref/org/displaytag/util/DependencyChecker.html#70">70</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/util/Href.java">
+        <table summary="Error details for org/displaytag/util/Href.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 15 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/util/Href.html#60">60</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 31 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/util/Href.html#60">60</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/util/HtmlTagUtil.java">
+        <table summary="Error details for org/displaytag/util/HtmlTagUtil.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 35 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/util/HtmlTagUtil.html#109">109</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Warning" src="images/icon_warning_sml.gif">
+                </img>
+              </td>
+              <td>Método tem 159 linhas (máx. permitido são 150).</td>
+              <td>
+                <a href="xref/org/displaytag/util/HtmlTagUtil.html#109">109</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 54 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/util/HtmlTagUtil.html#109">109</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+      <subsection name="org/displaytag/util/LookupUtil.java">
+        <table summary="Error details for org/displaytag/util/LookupUtil.java">
+          <thead>
+            <tr>
+              <th colspan="2">Error</th>
+              <th style="width:20px">Line</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Cyclomatic Complexity is 24 (max allowed is 13).</td>
+              <td>
+                <a href="xref/org/displaytag/util/LookupUtil.html#115">115</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="width:20px">
+                <img height="15" width="15" alt="Info" src="images/icon_info_sml.gif">
+                </img>
+              </td>
+              <td>Número de declarações executáveis é 40 (máx. permitido são 30).</td>
+              <td>
+                <a href="xref/org/displaytag/util/LookupUtil.html#115">115</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </subsection>
+    </section>
+  </body>
+</document>

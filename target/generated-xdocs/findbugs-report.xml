@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<document>
+  <properties>
+    <title>FindBugs Results</title>
+  </properties>
+  <body>
+    <section name="FindBugs Results">
+      <p>The following document contains the results of
+        <a href="http://findbugs.sourceforge.net/">FindBugs</a>.</p>
+    </section>
+    <section name="Summary">
+      <table>
+        <tr>
+          <th>Files</th>
+          <th>Errors</th>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>4</td>
+        </tr>
+      </table>
+    </section>
+    <section name="Files">
+      <table>
+        <tr>
+          <th>Files</th>
+          <th>Violations</th>
+        </tr>
+        <tr>
+          <td>
+            <a href="#org.displaytag.filter.BufferedResponseWrapper">org.displaytag.filter.BufferedResponseWrapper</a>
+          </td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#org.displaytag.pagination.Pagination">org.displaytag.pagination.Pagination</a>
+          </td>
+          <td>3</td>
+        </tr>
+      </table>
+      <subsection name="org.displaytag.filter.BufferedResponseWrapper">
+        <table>
+          <tr>
+            <th>Violation</th>
+            <th>Line</th>
+          </tr>
+          <tr>
+            <td>MS: org.displaytag.filter.BufferedResponseWrapper.FILTERED_HEADERS should be moved out of an interface and made package protected</td>
+            <td>
+              <a href="xref/org/displaytag/filter/BufferedResponseWrapper.html#0">0</a>
+            </td>
+          </tr>
+        </table>
+      </subsection>
+      <subsection name="org.displaytag.pagination.Pagination">
+        <table>
+          <tr>
+            <th>Violation</th>
+            <th>Line</th>
+          </tr>
+          <tr>
+            <td>UuF: Unused field: org.displaytag.pagination.Pagination.frstGroup</td>
+            <td>
+              <a href="xref/org/displaytag/pagination/Pagination.html#0">0</a>
+            </td>
+          </tr>
+          <tr>
+            <td>UuF: Unused field: org.displaytag.pagination.Pagination.nextGroup</td>
+            <td>
+              <a href="xref/org/displaytag/pagination/Pagination.html#0">0</a>
+            </td>
+          </tr>
+          <tr>
+            <td>UuF: Unused field: org.displaytag.pagination.Pagination.previousGroup</td>
+            <td>
+              <a href="xref/org/displaytag/pagination/Pagination.html#0">0</a>
+            </td>
+          </tr>
+        </table>
+      </subsection>
+    </section>
+  </body>
+</document>

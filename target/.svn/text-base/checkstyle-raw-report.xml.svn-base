@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.4">
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/apache/taglibs/display/Decorator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/apache/taglibs/display/TableDecorator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/apache/taglibs/display/ColumnDecorator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ExpressionEvaluator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELSetPropertyTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELTableTagBeanInfo.java">
+<error line="37" column="5" severity="info" message="Número de declarações executáveis é 36 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELColumnTagBeanInfo.java">
+<error line="36" column="5" severity="info" message="Número de declarações executáveis é 34 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELCaptionTagBeanInfo.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELTableTag.java">
+<error line="102" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="278" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="278" column="43" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="278" column="43" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="279" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="348" column="5" severity="info" message="Cyclomatic Complexity is 26 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="348" column="5" severity="info" message="Número de declarações executáveis é 39 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="431" column="11" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="431" column="34" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="431" column="34" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="432" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELColumnTag.java">
+<error line="330" column="5" severity="info" message="Cyclomatic Complexity is 22 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="330" column="5" severity="info" message="Número de declarações executáveis é 35 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELCaptionTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/ColumnTag.java">
+<error line="600" column="5" severity="info" message="Cyclomatic Complexity is 16 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="600" column="5" severity="info" message="Número de declarações executáveis é 36 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TableTag.java">
+<error line="1" severity="warning" message="Ficheiro tem 2.001 linhas (máx. permitido são 2.000)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="93" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="98" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="124" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="129" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="139" column="5" severity="info" message="Definição de acesso a variável em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="147" column="5" severity="info" message="Definição de acesso a variável em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="206" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="211" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="216" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="229" column="17" severity="warning" message="Variável &apos;defaultSortedColumn&apos; inicializada explicitamente para &apos;0&apos; (valor por omissão para o seu tipo)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="284" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="411" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="613" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="693" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="695" column="89" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="809" column="5" severity="info" message="Cyclomatic Complexity is 29 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="809" column="5" severity="info" message="Número de declarações executáveis é 53 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="822" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="823" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="824" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="825" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="827" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="829" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="829" column="11" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="831" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="832" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="833" column="9" severity="warning" message="&apos;}&apos; deve estar sozinho numa linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="833" column="10" severity="warning" message="&apos;else&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="833" column="10" severity="warning" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="833" column="14" severity="warning" message="&apos;else&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="833" column="14" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="833" column="14" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="834" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="835" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="835" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="835" column="19" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="836" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="837" severity="warning" message="A estrutura sintáctica &apos;else&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="837" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="838" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="839" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="840" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="841" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="844" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="848" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="848" column="11" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="849" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="851" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="852" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="853" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="854" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="854" column="11" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="855" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="956" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="956" column="41" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="956" column="46" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="957" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="958" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="958" column="11" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="958" column="35" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="958" column="35" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="958" column="36" severity="warning" message="&apos;{&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="959" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="960" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="960" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="960" column="19" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="960" column="113" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="960" column="113" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="960" column="114" severity="warning" message="&apos;{&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="961" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="962" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="963" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="964" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="964" column="9" severity="warning" message="&apos;}&apos; deve estar sozinho numa linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="964" column="10" severity="warning" message="&apos;else&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="964" column="10" severity="warning" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="964" column="14" severity="warning" message="&apos;else&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="964" column="14" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="964" column="14" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="964" column="15" severity="warning" message="&apos;{&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="965" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="965" column="19" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="965" column="59" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="965" column="59" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="966" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="967" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="968" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="969" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="970" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="972" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="1020" column="63" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="1020" column="63" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="1021" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="1038" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="1040" column="14" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="1046" column="5" severity="info" message="Cyclomatic Complexity is 16 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="1126" column="5" severity="info" message="Cyclomatic Complexity is 16 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="1191" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1273" column="17" severity="info" message="O tratamento de &apos;Exception&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="1316" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="1352" column="5" severity="info" message="Cyclomatic Complexity is 20 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="1352" column="5" severity="info" message="Número de declarações executáveis é 39 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="1417" column="13" severity="info" message="O tratamento de &apos;Exception&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="1765" column="5" severity="info" message="Número de declarações executáveis é 31 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="1882" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1882" column="15" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="1883" column="13" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="1886" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1980" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1982" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TableTagBeanInfo.java">
+<error line="34" column="5" severity="info" message="Número de declarações executáveis é 43 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="125" column="13" severity="info" message="O tratamento de &apos;Throwable&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/ColumnTagBeanInfo.java">
+<error line="32" column="5" severity="info" message="Número de declarações executáveis é 35 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/HtmlTableTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TableFooterTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TableTagParameters.java">
+<error line="38" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/CaptionTagBeanInfo.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/SetPropertyTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TableTagExtraInfo.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/CaptionTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TemplateTag.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/ParamEncoder.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/WpsRequestHelperFactory.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/Href.java">
+<error line="60" column="5" severity="info" message="Cyclomatic Complexity is 15 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="60" column="5" severity="info" message="Número de declarações executáveis é 31 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/LookupUtil.java">
+<error line="115" column="5" severity="info" message="Cyclomatic Complexity is 24 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="115" column="5" severity="info" message="Número de declarações executáveis é 40 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/Anchor.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/CompatibleUrlEncoder.java">
+<error line="51" column="9" severity="info" message="O tratamento de &apos;Throwable&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="83" column="13" severity="info" message="O tratamento de &apos;Throwable&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/RequestHelperFactory.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/ShortToStringStyle.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/DefaultRequestHelper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/CollectionUtil.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/RequestHelper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/HtmlTagUtil.java">
+<error line="109" column="5" severity="info" message="Cyclomatic Complexity is 35 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="109" column="5" severity="warning" message="Método tem 159 linhas (máx. permitido são 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="109" column="5" severity="info" message="Número de declarações executáveis é 54 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/HtmlAttributeMap.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/DependencyChecker.java">
+<error line="63" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="70" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/WpsRequestHelper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/ReflectHelper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/DefaultRequestHelperFactory.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/MultipleHtmlAttribute.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/TagConstants.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/pagination/SmartListHelper.java">
+<error line="73" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="151" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="152" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="152" column="64" severity="warning" message="&apos;-&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="153" column="5" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="215" column="27" severity="warning" message="&apos;)&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="260" column="50" severity="warning" message="&apos;-&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="261" column="118" severity="warning" message="&apos;-&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="269" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="283" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="283" column="5" severity="info" message="Cyclomatic Complexity is 14 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="283" column="60" severity="warning" message="Esperada a marca @param para &apos;baseHrefAction&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="283" column="105" severity="warning" message="Esperada a marca @param para &apos;groupParameter&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="283" column="128" severity="warning" message="Esperada a marca @param para &apos;tableParameter&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="283" column="151" severity="warning" message="Esperada a marca @param para &apos;tableName&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="283" column="174" severity="warning" message="Esperada a marca @param para &apos;session&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="291" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="307" column="42" severity="warning" message="&apos;-&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="308" column="83" severity="warning" message="&apos;-&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="308" column="85" severity="warning" message="&apos;;&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
+<error line="362" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="362" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="362" column="19" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="363" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="364" severity="warning" message="A estrutura sintáctica &apos;else&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="364" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="365" column="9" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="395" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="395" column="9" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="395" column="41" severity="warning" message="&apos;currentGroup&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="395" column="55" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="396" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="397" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/pagination/Pagination.java">
+<error line="48" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="58" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="63" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="68" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="107" column="21" severity="warning" message="Unused private field &apos;nextGroup&apos;." source="com.puppycrawl.tools.checkstyle.checks.usage.UnusedPrivateFieldCheck"/>
+<error line="112" column="21" severity="warning" message="Unused private field &apos;previousGroup&apos;." source="com.puppycrawl.tools.checkstyle.checks.usage.UnusedPrivateFieldCheck"/>
+<error line="117" column="21" severity="warning" message="Unused private field &apos;frstGroup&apos;." source="com.puppycrawl.tools.checkstyle.checks.usage.UnusedPrivateFieldCheck"/>
+<error line="120" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="135" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="135" column="111" severity="warning" message="Esperada a marca @param para &apos;tableParameter&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="135" column="134" severity="warning" message="&apos;tableName&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="135" column="134" severity="warning" message="Esperada a marca @param para &apos;tableName&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="135" column="157" severity="warning" message="&apos;session&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="135" column="157" severity="warning" message="Esperada a marca @param para &apos;session&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="139" column="24" severity="warning" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="293" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="302" column="13" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="305" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="306" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="307" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="307" column="27" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="307" column="74" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="307" column="74" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="308" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="308" column="62" severity="warning" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="309" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="309" column="35" severity="warning" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="309" column="72" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="309" column="72" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="310" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="311" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="312" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="312" column="25" severity="warning" message="&apos;}&apos; deve estar sozinho numa linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="312" column="26" severity="warning" message="&apos;else&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="312" column="26" severity="warning" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="312" column="30" severity="warning" message="&apos;else&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="312" column="30" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="312" column="30" severity="warning" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="313" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="314" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="315" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="316" column="17" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="345" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="345" column="102" severity="warning" message="&apos;-&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="346" severity="warning" message="Linha contém mais do que 120 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="371" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="371" column="9" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="371" column="45" severity="warning" message="&apos;currentGroup&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="371" column="59" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="372" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="373" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/pagination/NumberedPage.java">
+<error line="32" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="50" column="65" severity="warning" message="&apos;group&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="91" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="91" column="31" severity="warning" message="&apos;{&apos; deve estar numa nova linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="92" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="93" column="1" severity="warning" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/ColumnIterator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/Row.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/Cell.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/RowSorter.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/Column.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/RowIterator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/HeaderCell.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/model/TableModel.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/TagStructureException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/BaseNestableJspTagException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/InvalidTagAttributeValueException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/DecoratorException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/MissingAttributeException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/TablePropertiesLoadException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/ObjectLookupException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/SeverityEnum.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/RuntimeLookupException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/BaseNestableRuntimeException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/DecoratorInstantiationException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/WrappedRuntimeException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/ExportException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/exception/FactoryInstantiationException.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/decorator/AutolinkColumnDecorator.java">
+<error line="47" column="5" severity="info" message="Cyclomatic Complexity is 17 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="47" column="5" severity="info" message="Número de declarações executáveis é 43 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/decorator/Decorator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/decorator/TableDecorator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/decorator/ColumnDecorator.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/decorator/DecoratorFactory.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/ExportDelegate.java">
+<error line="38" severity="info" message="A primeira frase deve acabar num ponto final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="59" column="5" severity="info" message="Cyclomatic Complexity is 15 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="59" column="5" severity="info" message="Número de declarações executáveis é 35 (máx. permitido são 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/BufferedResponseWrapper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/BufferedResponseWrapper12Impl.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/ResponseOverrideFilter.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/BufferedResponseWrapper13Impl.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/SimpleServletOutputStream.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/filter/DisplayTagSpringInterceptor.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/BinaryExportView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/PdfView.java">
+<error line="170" column="9" severity="info" message="O tratamento de &apos;Exception&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/XmlView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/CsvView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/ExcelView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/ExportView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/ExportViewFactory.java">
+<error line="90" column="5" severity="info" message="O número de &quot;return&quot;s é 5 (máximo permitido é 3)." source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/BaseExportView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/export/TextExportView.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/properties/MediaTypeEnum.java">
+<error line="37" column="5" severity="info" message="Definição de acesso a variável em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="42" column="5" severity="info" message="Definição de acesso a variável em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="47" column="5" severity="info" message="Definição de acesso a variável em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="52" column="5" severity="info" message="Definição de acesso a variável em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/properties/TableProperties.java">
+<error line="449" column="17" severity="info" message="O tratamento de &apos;Throwable&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="488" column="5" severity="info" message="Definição de construtor em ordem errada." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="1031" column="17" severity="info" message="O tratamento de &apos;Throwable&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="1117" column="9" severity="info" message="O tratamento de &apos;Exception&apos; não é permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/properties/DisplayPropertiesLoaderServlet.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/properties/SortOrderEnum.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/TestList.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/ListHolder.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/ReportableListObject.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/ListObject.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/DisplaySourceServlet.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/RandomSampleUtil.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/LongDateWrapper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/TotalWrapper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/ReportList.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/sample/Wrapper.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/localization/LocaleResolver.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/localization/I18nJstlAdapter.java">
+<error line="94" column="5" severity="info" message="Cyclomatic Complexity is 15 (max allowed is 13)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/localization/I18nWebworkAdapter.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/localization/I18nResourceProvider.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/localization/I18nSpringAdapter.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/localization/I18nStrutsAdapter.java">
+</file>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/Messages.java">
+</file>
+</checkstyle>

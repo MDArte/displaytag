@@ -1,0 +1,54 @@
+<?xml version="1.0"?><pmd>
+<file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/decorator/Decorator.java">
+<violation line="157" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+<violation line="161" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+<violation line="165" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/pagination/Pagination.java">
+<violation line="107" rule="UnusedPrivateField" ruleset="Unused Code Rules">
+Avoid unused private fields such as 'nextGroup'
+</violation>
+<violation line="112" rule="UnusedPrivateField" ruleset="Unused Code Rules">
+Avoid unused private fields such as 'previousGroup'
+</violation>
+<violation line="117" rule="UnusedPrivateField" ruleset="Unused Code Rules">
+Avoid unused private fields such as 'frstGroup'
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/properties/TableProperties.java">
+<violation line="427" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/CaptionTagBeanInfo.java">
+<violation line="60" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/ColumnTagBeanInfo.java">
+<violation line="111" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/TableTagBeanInfo.java">
+<violation line="136" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELCaptionTagBeanInfo.java">
+<violation line="56" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELColumnTagBeanInfo.java">
+<violation line="111" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/tags/el/ELTableTagBeanInfo.java">
+<violation line="118" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file><file name="/home/CECAFA/milene/projetos/displaytag-1.0/src/java/org/displaytag/util/CompatibleUrlEncoder.java">
+<violation line="54" rule="EmptyCatchBlock" ruleset="Basic Rules">
+Avoid empty catch blocks
+</violation>
+</file></pmd>
