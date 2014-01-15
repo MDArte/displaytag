@@ -846,9 +846,9 @@ public class TableTag extends HtmlTableTag
         
         int pagina = 1;
 //      this.pageNumber = (pageNumberParameter == null) ? 1 : pageNumberParameter.intValue();
-        
+
         if(this.currentGroup != null)
-        	pagina = ((this.currentGroup.intValue() - 1) * groupSize) + 1;
+        	pagina = ((this.currentGroup - 1) * groupSize) + 1;
         
         // Remover (*)
         if (log.isDebugEnabled())
@@ -862,7 +862,7 @@ public class TableTag extends HtmlTableTag
         // Remover (*)
         
         this.pageNumber = (pageNumberParameter == null || pageGroupParamenter != null) ?  pagina : pageNumberParameter.intValue();
-	        
+
         if(this.currentGroup == null)
         	this.currentGroup = new Integer((this.pageNumber - 1) / groupSize + 1);
 
@@ -956,9 +956,11 @@ public class TableTag extends HtmlTableTag
             if (this.pagesize > 0)
             {
                 int fullSize = ((Collection) this.list).size();
+                int extra = 0;
+            	if (this.pageNumber % 10 == 0) extra = 10;
+                start =  (this.pageNumber % 10 + extra - 1) * this.pagesize;
                 // (*) DE: start = (this.pageNumber - 1) * this.pagesize;
                 // (*) PARA:
-                start = ((this.pageNumber - 1) % groupSize) * this.pagesize;
 
                 // invalid page requested, go back to page one
                 if (start > fullSize)
@@ -1084,6 +1086,8 @@ public class TableTag extends HtmlTableTag
             // ... and copy parameters from the current request
             Map parameterMap = normalHref.getParameterMap();
             this.baseHrefAction.addParameterMap(parameterMap);
+            
+            this.baseHref = this.baseHrefAction;
         }
         else
         {
@@ -1239,8 +1243,8 @@ public class TableTag extends HtmlTableTag
         int sizeGrouHibernate = groupHibernate.size();
         boolean noSorting = false;
         
-        if(this.currentGroup !=null){
-        	if(this.currentGroup.intValue() == 1 && sizeGrouHibernate >= 200){ 
+        if(getGroupFromPage() !=null){
+        	if(getGroupFromPage().intValue() == 1 && sizeGrouHibernate >= 200){ 
         		this.tableModel.setSortedColumnNumber(-1);
         	}
         }
@@ -1570,7 +1574,7 @@ public class TableTag extends HtmlTableTag
         {
             this.listHelper = new SmartListHelper(fullList, fullList.size(), this.pagesize, this.properties);
             this.listHelper.setCurrentPage(this.pageNumber);
-            this.listHelper.setCurrentGroup(this.currentGroup.intValue());
+            this.listHelper.setCurrentGroup(getGroupFromPage().intValue());
             
             pageOffset = this.listHelper.getFirstIndexForCurrentPage();
             fullList = this.listHelper.getListForCurrentPage();
@@ -2071,5 +2075,13 @@ public class TableTag extends HtmlTableTag
 
         return this.paramEncoder.encodeParameterName(parameterName);
     }
+    
+    protected Integer getGroupFromPage()
+	{
+		int extra = 0;
+        if (this.pageNumber % 10 == 0) extra = 1;
+        
+        return this.pageNumber/10 - extra + 1;
+	}
 
 }

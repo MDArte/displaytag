@@ -341,9 +341,9 @@ public class Pagination
         this.hrefAction.removeParameter(this.pageParam);
         Object[] pageObjects = {
         numberedPageString,
-        ((Href) this.hrefAction.clone()).addParameter(this.groupParam, 1).addParameter(this.tableParam, tableName),
-        ((Href) this.hrefAction.clone()).addParameter(this.groupParam, this.currentGroup.intValue() -1).addParameter(this.tableParam, tableName),
-        ((Href) this.hrefAction.clone()).addParameter(this.groupParam, this.currentGroup.intValue() + 1).addParameter(this.tableParam, tableName),
+        ((Href) this.hrefAction.clone()).addParameter(this.pageParam, 1).addParameter(this.tableParam, tableName),
+        ((Href) this.hrefAction.clone()).addParameter(this.pageParam, ((getGroupFromPage()-1) * 10 )).addParameter(this.tableParam, tableName),
+        ((Href) this.hrefAction.clone()).addParameter(this.pageParam, (getGroupFromPage() * 10 + 1) ).addParameter(this.tableParam, tableName),
         //((Href) this.href.clone()).addParameter(this.pageParam, getLast()),
         this.currentPage,
         new Integer(pages.size())}; 
@@ -370,5 +370,13 @@ public class Pagination
 
 	public void setCurrentGroup(Integer currentGroup) {
 		this.currentGroup = currentGroup;
+	}
+	
+	protected Integer getGroupFromPage()
+	{
+		int extra = 0;
+        if (this.currentPage % 10 == 0) extra = 1;
+        
+        return this.currentPage/10 - extra + 1;
 	}
 }

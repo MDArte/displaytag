@@ -147,11 +147,9 @@ public class SmartListHelper
      */
     protected int getFirstIndexForPage(int pageNumber)
     {
-        //return (pageNumber - 1) * this.pageSize;
-    	
-    	int pageReferencia = pageNumber - ((this.currentGroup -1) * this.properties.getPagingGroupSize());
-    	return  (pageReferencia - 1) * this.pageSize;
-
+    	int extra = 0;
+    	if (pageNumber % 10 == 0) extra = 10;
+        return (pageNumber % 10 + extra - 1) * this.pageSize;
     }
 
     /**
@@ -257,7 +255,7 @@ public class SmartListHelper
         }
         else
         {
-            int startPage = ((this.currentGroup -1) * this.properties.getPagingGroupSize()) + 1;
+            int startPage = ((getGroupFromPage(this.currentPage) -1) * this.properties.getPagingGroupSize()) + 1;
             int endPage = Math.min(startPage + this.properties.getPagingGroupSize() - 1, startPage + this.pageCount -1);
             /*objs = new Object[]{
                 new Integer(this.fullListSize),
@@ -266,7 +264,7 @@ public class SmartListHelper
                 new Integer(getLastIndexForCurrentPage() + 1),
                 new Integer(this.currentPage),
                 new Integer(this.pageCount)};*/
-        	objs = new Object[]{new Integer(this.currentGroup), new Integer(startPage), new Integer(endPage)};        	
+        	objs = new Object[]{new Integer(getGroupFromPage(this.currentPage)), new Integer(startPage), new Integer(endPage)};        	
             message = this.properties.getPagingFoundSomeItems();
         }
 
@@ -289,7 +287,7 @@ public class SmartListHelper
 
        
         Pagination pagination = new Pagination(baseHref, baseHrefAction, pageParameter, groupParameter, tableParameter, tableName, session);
-        pagination.setCurrentGroup(new Integer(this.currentGroup));
+        pagination.setCurrentGroup(new Integer(getGroupFromPage(this.currentPage)));
         pagination.setCurrent(new Integer(this.currentPage));
 
         // if no items are found still add pagination?
@@ -304,8 +302,17 @@ public class SmartListHelper
        // startPage = Math.max(Math.min(this.currentPage - groupSize / 2, this.pageCount - groupSize), 1);
        // endPage = Math.min(startPage + groupSize - 1, this.pageCount);
         
-        startPage = ((this.currentGroup -1) * groupSize) + 1;
-        endPage = Math.min(startPage + groupSize - 1, startPage + this.pageCount -1) ;
+        int extra = 0;
+        if (this.currentPage % 10 == 0) extra = 1;
+        
+        startPage = ((this.currentPage / 10 - extra)) * 10 + 1;
+        
+        if (this.currentPage % 10 == 0) extra = 0;
+        else extra = 1;
+        
+        endPage = (this.currentPage / 10 + extra) * 10;
+        
+        if (endPage > this.pageCount + (10 * (getGroupFromPage(this.currentPage) - 1))) endPage = this.pageCount + (10 * (getGroupFromPage(this.currentPage) - 1));
 
         if (log.isDebugEnabled())
         {
@@ -324,7 +331,7 @@ public class SmartListHelper
             {
                 log.debug("adding page " + j); //$NON-NLS-1$
             }
-            pagination.addPage(j, (j == this.currentPage), this.currentGroup);
+            pagination.addPage(j, (j == this.currentPage), getGroupFromPage(this.currentPage));
         }
 
         if (this.currentPage != this.pageCount)
@@ -353,18 +360,18 @@ public class SmartListHelper
             bannerFormat = this.properties.getPagingBannerFull();
         }*/
         
-        if (pagination.isOnePage() && this.currentGroup == 1)
+        if (pagination.isOnePage() && getGroupFromPage(this.currentPage) == 1)
         {
             bannerFormat = this.properties.getPagingBannerOnePage();
         }
-        else if (this.currentGroup == 1)
+        else if (getGroupFromPage(this.currentPage) == 1)
         {
-        	if(this.fullListSize < this.pageSize * this.properties.getPagingGroupSize())
+        	if(this.fullListSize <= this.pageSize * this.properties.getPagingGroupSize())
         		bannerFormat = this.properties.getPagingBannerFirstLast();
         	else
         		bannerFormat = this.properties.getPagingBannerFirst();
         }
-        else if (this.fullListSize < this.pageSize * this.properties.getPagingGroupSize())
+        else if (this.fullListSize <=  this.pageSize * this.properties.getPagingGroupSize())
         {
             bannerFormat = this.properties.getPagingBannerLast();
         }
@@ -394,5 +401,13 @@ public class SmartListHelper
 
 	public void setCurrentGroup(int currentGroup) {
 		this.currentGroup = currentGroup;
+	}
+	
+	protected Integer getGroupFromPage(int page)
+	{
+		int extra = 0;
+        if (page % 10 == 0) extra = 1;
+        
+        return page/10 - extra + 1;
 	}
 }
