@@ -1,83 +1,0 @@
-8
-
-dir
-18270
-svn://10.150.0.2/trunk/DocumentacaoFaseDesenvolvimento/SGDC-P/InfraEstruturaDesenvolvimento/displaytag/target/classes/org/displaytag
-svn://10.150.0.2
-
-
-
-2006-11-09T18:05:50.959334Z
-5967
-milene
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-a0be6657-8304-0410-ad73-8a394d19e940
-
-model
-dir
-
-export
-dir
-
-sample
-dir
-
-decorator
-dir
-
-messages.properties
-file
-
-
-
-
-2008-11-27T17:21:38.000000Z
-ca24ce140c44df2fb7e168be499836ec
-2006-11-09T18:05:50.959334Z
-5967
-milene
-
-filter
-dir
-
-localization
-dir
-
-pagination
-dir
-
-Messages.class
-file
-
-
-
-
-2008-11-27T17:21:38.000000Z
-26ec73765ed0f239b1b0e3765d24d973
-2006-11-09T18:05:50.959334Z
-5967
-milene
-has-props
-
-properties
-dir
-
-util
-dir
-
-exception
-dir
-

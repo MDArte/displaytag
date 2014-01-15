@@ -1,85 +1,0 @@
-8
-
-dir
-18270
-svn://10.150.0.2/trunk/DocumentacaoFaseDesenvolvimento/SGDC-P/InfraEstruturaDesenvolvimento/displaytag/src/java/org/displaytag
-svn://10.150.0.2
-
-
-
-2008-03-19T16:26:41.008304Z
-16680
-antelio
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-a0be6657-8304-0410-ad73-8a394d19e940
-
-model
-dir
-
-export
-dir
-
-sample
-dir
-
-decorator
-dir
-
-messages.properties
-file
-
-
-
-
-2008-11-27T17:21:39.000000Z
-ca24ce140c44df2fb7e168be499836ec
-2006-11-09T18:14:41.171452Z
-5973
-milene
-
-filter
-dir
-
-Messages.java
-file
-
-
-
-
-2008-11-27T17:21:39.000000Z
-df70079d8ebc7c801f063c1e39b48fd8
-2006-11-09T18:14:41.171452Z
-5973
-milene
-
-localization
-dir
-
-pagination
-dir
-
-properties
-dir
-
-util
-dir
-
-exception
-dir
-
-tags
-dir
-
